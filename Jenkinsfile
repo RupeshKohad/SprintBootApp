@@ -1,9 +1,9 @@
 pipeline{
     agent{
-        label "aws_node"
+        label "Linux_Node"
     }
     tools{
-        maven 'mavenhome' 
+        maven 'maven_home' 
     }
     stages{
         stage("Test"){
