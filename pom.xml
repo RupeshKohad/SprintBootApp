@@ -109,21 +109,7 @@
                 <target>1.8</target>
             </configuration>
         </plugin>
-			
-	
+</plugins>		
 	</build>
-		
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-46-62.us-east-2.compute.internal-releases</name>
-        <url>http://3.144.32.198:8081/artifactory/maven-int-local-release</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-46-62.us-east-2.compute.internal-snapshots</name>
-        <url>http://3.144.32.198:8081/artifactory/maven-int-local-release</url>
-    </snapshotRepository>
-</distributionManagement>
 
 </project>
